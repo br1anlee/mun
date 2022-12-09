@@ -1,0 +1,29 @@
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
+    border: 1px solid gold;
+}
+
+
+.grid-item {
+    border: 1px solid gold;
+    padding: 20px;
+    font-size: 32px;
+    text-align: center;
+    align-items: center;
+    word-wrap: break-word;
+   } 
+
+.item3 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+  }
