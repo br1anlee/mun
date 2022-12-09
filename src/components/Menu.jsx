@@ -1,4 +1,4 @@
-import '../assets/styling/Menu.css'
+import '../assets/style/Menu.css'
 
 export default function Menu () {
   return (
