@@ -1,31 +1,29 @@
+import logo from "../assets/images/mun.png"
+import lunch from "../assets/menu/lunch.pdf"
+import dinner from "../assets/menu/dinner.pdf"
+import bar from "../assets/menu/bar.pdf"
+import alcohol from "../assets/menu/alcohol.pdf"
+
 import "../style/Navbar.css"
-import Logo from "../assets/images/mun.png"
-import {useState} from "react"
-
 export default function Navbar () {
-
-    const [isNavBarCollapsed, setNavBarCollapsed] = useState(true)
-
-    const toggleNavBar = () => {
-        setNavBarCollapsed(!isNavBarCollapsed)
-    }
     return (
-        <nav>
-            <div className="navbar-brand">
-                <a href="#">My Navbar</a>
-            </div>
-
-            <div>
-                <div className="navbar-start">
-                    <a href="#" className="navbar-item">
-                        Home
-                    </a>
-
-                    <a href="#" className="navbar-item">
-                        Link
-                    </a>
-                </div>
-            </div>
-        </nav>
+        <header className="navbar">
+            <a href="/">
+                <img src={logo} alt="logo of mun" className="logo"/>
+            </a>
+            <nav>
+                <ul className="menu">
+                    <li>
+                        MENU
+                    </li>
+                    <li>
+                        GALLERY
+                    </li>
+                    <li>
+                        CONTACT
+                    </li>
+                </ul>
+            </nav>
+        </header>
     )
 }

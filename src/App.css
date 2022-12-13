@@ -1,7 +1,22 @@
+@font-face {
+  font-family: 'MyFont';
+  src: local('MyFont'), url(./assets/fonts/Munhwa\ Myungjo\ Std\ B.otf) format('woff');
+}
+
 * {
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
   background: black;
   color: white;
+  font-family: MyFont;
+}
+
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
 }

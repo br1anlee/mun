@@ -1,0 +1,12 @@
+.title {
+    text-align: center;
+    margin: 10px;
+}
+
+
+.mun-vid {
+    max-width: 75vw;
+    border: 5px solid #7d563a;
+    display: block;
+    margin: 0 auto;
+}

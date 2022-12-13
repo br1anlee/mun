@@ -1,3 +1,7 @@
+.menuTitle {
+    margin: 10px;
+}
+
 
 .container {
     display: flex;
@@ -8,7 +12,7 @@
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(3, auto);
+    grid-template-columns: repeat(4, auto);
     grid-template-rows: repeat(2, auto);
     border: 1px solid gold;
 }
@@ -21,9 +25,24 @@
     text-align: center;
     align-items: center;
     word-wrap: break-word;
+    font-weight: bold;
    } 
 
-.item3 {
-    grid-column-start: 3;
+.item5 {
+    grid-column-start: 1;
     grid-column-end: 5;
-  }
+}
+
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: gold;
+}
+
+
+.menuTitle {
+    text-align: center;
+}
