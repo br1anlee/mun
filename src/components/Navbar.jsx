@@ -4,6 +4,8 @@ import dinner from "../assets/menu/dinner.pdf"
 import bar from "../assets/menu/bar.pdf"
 import alcohol from "../assets/menu/alcohol.pdf"
 
+import {Link} from 'react-scroll'
+
 import "../style/Navbar.css"
 export default function Navbar () {
     return (
@@ -14,13 +16,19 @@ export default function Navbar () {
             <nav>
                 <ul className="menu">
                     <li>
-                        MENU
+                        <Link to="menu" smooth>
+                            MENU
+                        </Link>
                     </li>
                     <li>
-                        GALLERY
+                        <Link to="gallery" smooth>
+                            GALLERY
+                        </Link>
                     </li>
                     <li>
-                        CONTACT
+                        <Link to="contact" smooth>
+                            CONTACT
+                        </Link>
                     </li>
                 </ul>
             </nav>

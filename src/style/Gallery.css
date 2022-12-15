@@ -1,0 +1,19 @@
+.gallery-title {
+    text-align: center;
+    padding: 20px;
+}
+
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    justify-items: center;
+    align-items: center;
+}
+
+.gridPic {
+    border: 1px solid gold;
+    margin: 10px;
+    
+}
