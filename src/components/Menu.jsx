@@ -7,8 +7,8 @@ import bar from "../assets/menu/bar.pdf"
 
 export default function Menu () {
   return (
-    <>
-      <h1 className="menuTitle" to="menu">MENU</h1>
+    <section to="menu">
+      <h1 className="menuTitle">MENU</h1>
       <div className="container">
         <div className="grid-container">
 
@@ -19,6 +19,6 @@ export default function Menu () {
           <div className="grid-item item5"><a href="#" target="_blank">RESERVATION</a></div>
         </div>
       </div>
-    </>
+    </section>
   )
 }
