@@ -16,7 +16,7 @@ export default function Navbar () {
             <nav>
                 <ul className="menu">
                     <li>
-                        <Link to="menu" smooth>
+                        <Link to="munMenu" smooth>
                             MENU
                         </Link>
                     </li>

@@ -7,8 +7,8 @@ import bar from "../assets/menu/bar.pdf"
 
 export default function Menu () {
   return (
-    <section to="menu">
-      <h1 className="menuTitle">MENU</h1>
+    <section>
+      <h1 className="menuTitle" id="munMenu">MENU</h1>
       <div className="container">
         <div className="grid-container">
 
