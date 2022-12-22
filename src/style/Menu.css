@@ -1,5 +1,9 @@
 .menuTitle {
-    margin: 10px;
+    color: #70563a;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline #70563a 2px;
+    text-underline-offset: 8px;
 }
 
 

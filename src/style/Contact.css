@@ -1,0 +1,32 @@
+.contactHeaders {
+    color: #70563a;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline #70563a 2px;
+    text-underline-offset: 8px;
+}
+
+.addressHeader:hover {
+    color: gold;
+}
+
+.subHeaders {
+    color: #70563a;
+    font-size: 25px;
+}
+
+.subsubHeader {
+    font-size: 23px;
+}
+
+
+.socialIcon {
+    padding: 10px;
+}
+
+.socialIcon:hover {
+    color: red;
+}
+
+
+

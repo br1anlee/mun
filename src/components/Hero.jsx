@@ -5,9 +5,11 @@ export default function Hero () {
     return (
         <container>
             <h1 className="title">MUN KOREAN STEAKHOUSE</h1>
-            <video autoPlay loop muted className="mun-vid">
-                <source src={MunVid} type="video/mp4" />
-            </video>
+            <div className="vid-container">
+                <video autoPlay loop muted className="mun-vid">
+                    <source src={MunVid} type="video/mp4" />
+                </video>
+            </div>
         </container>
 
     )
