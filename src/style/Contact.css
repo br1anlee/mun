@@ -1,9 +1,24 @@
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-container {
+    display: flex;
+    padding: 10px;
+}
 .contactHeaders {
     color: #70563a;
     font-size: 40px;
     text-align: center;
     text-decoration: underline #70563a 2px;
     text-underline-offset: 8px;
+    width: 100%;
+    padding: 50px;
+    margin: 50px 0 0 0;
+    border: 1px solid red;
 }
 
 .addressHeader:hover {
@@ -11,12 +26,14 @@
 }
 
 .subHeaders {
-    color: #70563a;
+    color: rgba(112, 86, 58, .8);
     font-size: 25px;
 }
 
 .subsubHeader {
     font-size: 20px;
+    color: rgba(112, 86, 58, 1);
+    opacity: 2;
 }
 
 
@@ -29,14 +46,15 @@
 }
 
 /* Media Query */
-@media (max-width: 600px){
-    footer {
+@media (max-width: 768px){
+    .social-container {
         width: 100%;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         justify-content: center;
     }
+    
 }
 
 
@@ -49,6 +67,3 @@
         justify-content: space-between;
     }
 }
-
-
-
