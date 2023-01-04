@@ -16,7 +16,7 @@ export default function Menu () {
           <div className="grid-item item3"><a href={dinner}target="_blank">DINNER</a></div>
           <div className="grid-item item4"><a href={bar}target="_blank">BAR</a></div>
           <div className="grid-item item4"><a href={alcohol}target="_blank">ALCOHOL</a></div>
-          <div className="grid-item item5"><a href="#" target="_blank">RESERVATION</a></div>
+          <div className="grid-item item5"><a href="https://resy.com/cities/la/mun-korean?date=2023-01-02&seats=2" target="_blank">RESERVATION</a></div>
         </div>
       </div>
     </section>

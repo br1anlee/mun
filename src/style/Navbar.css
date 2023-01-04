@@ -1,34 +1,78 @@
-.logo {
-    width: 100px
-}
-
-
-.navbar {
+  .navbar {
+    height: 80px;
     width: 100%;
+    background: black;
+    color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
-}
+    padding: 0 2rem;
+    font-size: 1.2rem;
+  }
 
+  .nav-logo {
+    text-decoration: none;
+    color: white;
+    width: 100px;
+    padding: 1.5rem 0 0 0;
+  }
 
-.menu {
-    display: flex;
-    align-items: center;
-}
+  .nav-links {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 20px;
+    list-style: none;
+  }
 
-.menu li {
-    padding: 1rem;
-    font-size: 16px;
-}
+  .nav-link {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s all;
+  }
 
-.menu li:hover {
+  .nav-link:hover {
     color: gold;
     cursor: pointer;
-}
+  }
 
-.navbar a {
-    font-size: 16px;
-}
+  .nav-icon {
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+  }
 
+  @media only screen and (max-width: 768px){
+    .navbar {
+        position: relative;
+    }
 
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        top: 80px;
+        left: -100%;
+        transition: 0.5s all;
+    }
+
+    .nav-links.active {
+        background: black;
+        opacity: 1;
+        left: 0;
+    }
+
+    .nav-item {
+        padding: 10px 0;
+    }
+    
+    .nav-icon {
+        display: flex;
+    }
+
+    .nav-logo {
+        width: 60px;
+        padding: .5rem 0 0 0;
+    }
+  }
